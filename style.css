@@ -1,0 +1,36 @@
+body {
+    background-color: rosybrown;
+}
+
+h1 {
+    background-color: #f54321;
+    color: #123456;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px dashed burlywood;
+    border-radius: 20px;
+    animation-name: animation;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation {
+    from {
+        box-shadow: 5px -20px 20px red;
+    }
+
+    to {
+        box-shadow: 5px -20px 20px aquamarine;
+    }
+}
+
+p {
+    font-size: 20px;
+    color: forestgreen;
+}
